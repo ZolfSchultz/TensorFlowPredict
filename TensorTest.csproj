@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Razorvine.Pickle" Version="1.4.0" />
+    <PackageReference Include="SciSharp.TensorFlow.Redist" Version="2.11.4" />
+    <PackageReference Include="TensorFlow.Keras" Version="0.11.3" />
+    <PackageReference Include="TensorFlow.NET" Version="0.110.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+
+</Project>
